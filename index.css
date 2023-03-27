@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(17, 144, 194);
+  color: white;
+}
+main {
+  height: 100%;
+}
+
+input {
+  vertical-align: middle;
+  width: 80%;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 2%;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background-color: #fff;
+  outline: none;
+}
+
+#search-img {
+  vertical-align: middle;
+  background-color: white;
+  padding: 3%;
+  border-radius: 50%;
+  width: 5%;
+  height: 5%;
+}
+
+#sun {
+  margin-top: 20%;
+}
+#sol {
+  width: 60%;
+}
+
+#degree {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#city {
+  font-size: 25px;
+}
+section {
+  display: flex;
+  gap: 30%; /* adds space between the two divs */
+}
+
+section div {
+  display: flex;
+  align-items: center; /* centers the content vertically */
+}
+
+section div img {
+  width: 40%;
+  margin-right: 5%; /* adds space between the image and the text */
+}
+
+section div p {
+  font-size: 30px;
+}
